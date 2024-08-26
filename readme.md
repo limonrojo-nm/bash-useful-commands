@@ -4,7 +4,7 @@ This is a bash script to be imported in other scripts to easily add styles and o
 
 1. Place `_lib.sh` where is fine to you.
 2. Import it in your new script using:
-   ```
+   ```bash
    #!/bin/bash
    my_dir="$(dirname "$0")"
    source $my_dir/_lib.sh
